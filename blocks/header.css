@@ -1,0 +1,129 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  padding: 30px 80px 40px;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-END; */
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  position: absolute;
+  top: 30px;
+  left:30PX;
+}
+
+.nav__links {
+  list-style: none;
+  padding-left: 0;
+  margin: 30px 90px 0 0;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.nav__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.header__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 28px;
+}
+
+.header__title {
+  margin: 202px 0 28px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  max-width: 729px;
+  display: block;
+  position: relative;
+  
+}
+
+.header__title-span {
+  margin: 0;
+  border: 0;
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  margin: 0;
+  position: relative;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
+
+.header__image {
+  margin: 0;
+  height: 568px;
+  width: 646px;
+  max-width: 683px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 80px;
+  left: 0;
+  justify-content: space-between;
+}
+
+.header__hours {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__address {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}

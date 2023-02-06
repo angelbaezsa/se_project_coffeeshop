@@ -1,20 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Angel" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Practicum coffee shop" />
-    <title>Practicum Coffee Shop</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Angel" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Practicum coffee shop" />
+  <title>Practicum Coffee Shop</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img src="./images/logo_coffee_shop.svg" alt="Practicum coffeshop Logo" class="logo" />
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#staff">Menu</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#events">Recipes</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#membership">Book a table</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#about">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div class="header__title-wrapper"> -->
+      <h1 class="header__title"> <span class="header__title-span">Specialty coffee</span> <br> in the Practicum
+        Library</h1>
+      <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy
+        vibes to help you get creative.</p>
+      <!-- </div> -->
+      <img src="./images/inside_coffee_shop.png" class="header__image" alt="Coffee shop ilustration">
+      <div class="header__footer">
+        <p class="header__hours">Hours: <br>
+          Monday – Friday (10:00 – 19:00) <br>
+          Saturday – Sunday (11:00 – 18:00)</p>
+        <p class="header__address">200 Success Avenue, The Town of Practicum</p>
+      </div>
+    </header>
+    <main>
+      <section class="menu" id="menu">
+        <h2 class="menu__subtitle">Menu</h2>
+        <p class="menu__description">
+          We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our
+          collection are $2/cup.
+        </p>
+        <div class="menu__cards-wrapper">
+          <div class="menu__card"></div>
+        </div>
+
+      </section>
+      <section class="recipes" id="recipes"></section>
+      <section class="reservation" id="reservation"></section>
+      <section class="about" id="about"></section>
+    </main>
+    <footer class="page__footer"></footer>
+  </div>
+</body>
+
 </html>
