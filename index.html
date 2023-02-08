@@ -52,18 +52,82 @@
     </header>
     <main>
       <section class="menu" id="menu">
-        <h2 class="menu__subtitle">Menu</h2>
-        <p class="menu__description">
+        <h2 class="menu__title">Menu</h2>
+        <p class="menu__subtitle">
           We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our
           collection are $2/cup.
         </p>
         <div class="menu__cards-wrapper">
-          <div class="menu__card"></div>
+          <div class="menu__card">
+            <h4 class="menu__card-title"><span class="menu__card-title-span">Filter</span></h4>
+            <ul class="menu__card-items">
+              <li class="menu__card-item">Regular(12 oz)<span class="divider"></span>$1</li>
+              <li class="menu__card-item">Large (16 oz)<span class="divider"></span>$1.25</li>
+              <li class="menu__card-item">XL (20 oz)<span class="divider"></span>$1.5</li>
+              <li class="menu__card-item">Party-size (24 oz, decaf)<span class="divider"></span>$1.75</li>
+              <li class="menu__card-item">Iced Coffee (16 oz)<span class="divider"></span>$1.25</li>
+            </ul>
+          </div>
+
+          <div class="menu__card">
+            <h4 class="menu__card-title"><span class="menu__card-title-span">Espresso</span></h4>
+            <ul class="menu__card-items">
+              <li class="menu__card-item">Macchiato<span class="divider"></span>$2.25</li>
+              <li class="menu__card-item">Cortado<span class="divider"></span>$2.5</li>
+              <li class="menu__card-item">Mocha<span class="divider"></span>$3</li>
+              <li class="menu__card-item">Sunrise in the Bay Area (decaf)<span class="divider"></span>$10</li>
+            </ul>
+          </div>
+
+          <div class="menu__card">
+            <h4 class="menu__card-title"><span class="menu__card-title-span">Baked Goods</span></h4>
+            <ul class="menu__card-items">
+              <li class="menu__card-item">Almond Croissant<span class="divider"></span>$2</li>
+              <li class="menu__card-item">Banana Bread<span class="divider"></span>$1.75</li>
+              <li class="menu__card-item">Key Lime Pie<span class="divider"></span>$3</li>
+              <li class="menu__card-item">Blue Velvet Cake<span class="divider"></span>$3.75</li>
+              <li class="menu__card-item">Web Cookie<span class="divider"></span>$2</li>
+              <li class="menu__card-item">Fresh Bug’uette<span class="divider"></span>$0.25</li>
+            </ul>
+          </div>
         </div>
 
       </section>
-      <section class="recipes" id="recipes"></section>
-      <section class="reservation" id="reservation"></section>
+      <section class="recipes" id="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+        <div class="recipes__videos">
+          <div class="recipes__video-wrapper recipes__video-wrapper-first">
+            <iframe src="https://www.youtube.com/embed/j6VlT_jUVPc" frameborder="0" class="recipes__video"></iframe>
+            <p class="recipes__video-subtitle">Aeropress recipe<span class="subtitle-divider"></span>~5 min</p>
+          </div>
+          <div class="recipes__video-wrapper">
+            <iframe src="https://www.youtube.com/embed/st571DYYTR8" frameborder="0" class="recipes__video"></iframe>
+            <p class="recipes__video-subtitle">French press recipe<span class="subtitle-divider"></span>~15 min</p>
+          </div>
+        </div>
+      </section>
+      <section class="reservation" id="reservation">
+        <h1 class="reservation__title">Book a table</h1>
+        <form action="" class="reservation__form">
+          <label for="form_numb-guest">
+            name*
+          </label>
+          <input type="text" class="form__input" name="form_numb-guest" id="txt__name">
+          <label for="form_numb-guest">
+            Number of guests*
+          </label>
+          <input type="text" class="form__input" name="form_numb-guest" id="form_numb-guest">
+          <label for="form_date-time">
+            Date & time*
+          </label>
+          <input type="datetime" class="form__input" name="form_date-time" id="form_date-time">
+          <label for="form_email">Your email*
+          </label>
+          <input type="email" class="form__input" name="form_email" id="form_email">
+          <button class="form_button_book-table">Book a table</button>
+        </form>
+      </section>
       <section class="about" id="about"></section>
     </main>
     <footer class="page__footer"></footer>
