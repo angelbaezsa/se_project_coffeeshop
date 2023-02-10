@@ -1,14 +1,28 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .footer {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 60px 100px 60px 80px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0a2850), to(#071931));
+  background: -o-linear-gradient(top, #0a2850 0%, #071931 100%);
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
 }
 
 .footer__columns {
   min-height: 224px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__column_content_social {
@@ -55,10 +69,18 @@
   font-weight: normal;
   /* animation */
   color: white;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
   transition-property: color;
-  transition-duration: 0.08s;
-  transition-timing-function: ease-out;
-  transition-delay: 0.17s;
+  -webkit-transition-duration: 0.08s;
+       -o-transition-duration: 0.08s;
+          transition-duration: 0.08s;
+  -webkit-transition-timing-function: ease-out;
+       -o-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.17s;
+       -o-transition-delay: 0.17s;
+          transition-delay: 0.17s;
   
 }
 .footer__column-link:hover {

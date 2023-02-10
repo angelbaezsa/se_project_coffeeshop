@@ -1,12 +1,22 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .about {
   height: 40vh;
   padding: 100px 173px 80px;
   background-color: #0a2750;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .about__title {
@@ -61,6 +71,13 @@
   margin-bottom:0;
 }
 
+@-webkit-keyframes pulsation {
+  0%  {opacity: 0.7;}
+  30%   {opacity: 0.4;}
+  60%  {opacity:0.2;}
+  100%  {opacity: 0;}
+}
+
 @keyframes pulsation {
   0%  {opacity: 0.7;}
   30%   {opacity: 0.4;}
@@ -69,10 +86,17 @@
 }
 
 .about__circle_animation_blurred {
-  transform: scale(1.2);
-  animation-name: pulsation;
-  animation-duration: 1.3s;
-  animation-delay: 0.1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-animation-name: pulsation;
+          animation-name: pulsation;
+  -webkit-animation-duration: 1.3s;
+          animation-duration: 1.3s;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }

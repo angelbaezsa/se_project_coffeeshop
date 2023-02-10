@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 #reservation {
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
@@ -9,10 +16,16 @@
   height: 100vh;
   color: black;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 100px 0 120px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .reservation__title {
@@ -28,8 +41,13 @@
   margin: 80px auto 0;
   max-width: 385px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #reservation label {
@@ -55,6 +73,30 @@
   padding: 0;
 }
 
+::-webkit-input-placeholder{
+  margin-left: 20px;
+  text-align: left;
+  text-indent:20px;
+}
+
+::-moz-placeholder{
+  margin-left: 20px;
+  text-align: left;
+  text-indent:20px;
+}
+
+:-ms-input-placeholder{
+  margin-left: 20px;
+  text-align: left;
+  text-indent:20px;
+}
+
+::-ms-input-placeholder{
+  margin-left: 20px;
+  text-align: left;
+  text-indent:20px;
+}
+
 ::placeholder{
   margin-left: 20px;
   text-align: left;
@@ -77,10 +119,18 @@
   margin-bottom: 32px;
   /* animation */
   opacity: 100%;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
   transition-property: opacity;
-  transition-duration: 0.08s;
-  transition-timing-function: ease-out;
-  transition-delay: 0.17s;
+  -webkit-transition-duration: 0.08s;
+       -o-transition-duration: 0.08s;
+          transition-duration: 0.08s;
+  -webkit-transition-timing-function: ease-out;
+       -o-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.17s;
+       -o-transition-delay: 0.17s;
+          transition-delay: 0.17s;
 }
 
 .form_button:hover {
@@ -88,9 +138,15 @@
 }
 
 .form__checkbox-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  column-gap: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
 }
 .checkbox_terms-conditions {
   margin-right: 12px;
