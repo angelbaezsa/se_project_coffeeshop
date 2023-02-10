@@ -1,0 +1,78 @@
+.about {
+  height: 40vh;
+  padding: 100px 173px 80px;
+  background-color: #0a2750;
+  color: #fff;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  max-width: 251px;
+  z-index: 2;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  left: -129px;
+  top: -152px;
+}
+
+.about__content {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  position: absolute;
+  margin-bottom: 173px;
+  z-index: 1;
+  top: 119px;
+  right: 80px;
+}
+
+.about__paragraph {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#about p:last-of-type {
+  margin-bottom:0;
+}
+
+@keyframes pulsation {
+  0%  {opacity: 0.7;}
+  30%   {opacity: 0.4;}
+  60%  {opacity:0.2;}
+  100%  {opacity: 0;}
+}
+
+.about__circle_animation_blurred {
+  transform: scale(1.2);
+  animation-name: pulsation;
+  animation-duration: 1.3s;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
