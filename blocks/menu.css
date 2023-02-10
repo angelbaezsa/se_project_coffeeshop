@@ -43,7 +43,7 @@
   width: 780px;
   text-align: center;
   display: block;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -68,7 +68,7 @@
 }
 .menu__card-title {
   margin: 0;
-  padding: 0 0 16px auto;
+  padding: 0 0 16px 0;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;

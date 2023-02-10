@@ -34,7 +34,7 @@
   height: 142px;
   position: absolute;
   top: 30px;
-  left:30PX;
+  left:30px;
 }
 
 .nav__links {
@@ -108,7 +108,7 @@
 .header__title-span {
   margin: 0;
   border: 0;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -119,7 +119,7 @@
 .header__description {
   margin: 0;
   position: relative;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
