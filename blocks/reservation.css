@@ -59,7 +59,7 @@
   line-height: 20px;
 }
 
-.form__input {
+.form_input {
   max-width: 385px;
   height: 60px;
   width: 100%;
@@ -137,7 +137,7 @@
   opacity: 70%;
 }
 
-.form__checkbox-wrapper {
+.form_checkbox-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
