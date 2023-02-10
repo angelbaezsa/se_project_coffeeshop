@@ -75,7 +75,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 32px;
-  
+  /* animation */
   opacity: 100%;
   transition-property: opacity;
   transition-duration: 0.08s;

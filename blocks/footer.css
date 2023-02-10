@@ -1,0 +1,82 @@
+.footer {
+  box-sizing: border-box;
+  padding: 60px 100px 60px 80px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+}
+
+.footer__columns {
+  min-height: 224px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_social {
+  margin-left: 100px;
+}
+
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__column-heading {
+  font-size: 16px;
+  margin: 0 0 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  width: 16px;
+  height: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  /* animation */
+  color: white;
+  transition-property: color;
+  transition-duration: 0.08s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.17s;
+  
+}
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  margin: 0 10px 0 0;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}

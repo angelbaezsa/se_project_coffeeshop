@@ -14,7 +14,7 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  /* align-items: flex-END; */
+  
 }
 
 .logo {
@@ -41,7 +41,16 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  /* animation */
   color: black;
+  transition-property: color;
+  transition-duration: 0.08s;
+  transition-timing-function: ease-out;
+  transition-delay: 0.17s;
+}
+
+.nav__link:hover{
+  color: #2f80ed ;
 }
 
 .header__title-wrapper {
