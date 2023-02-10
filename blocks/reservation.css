@@ -138,7 +138,7 @@
   opacity: 70%;
 }
 
-.form_checkbox-wrapper {
+.form-checkbox-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +149,7 @@
      -moz-column-gap: 0;
           column-gap: 0;
 }
-.checkbox_terms-conditions {
+.form-checkbox-terms-conditions {
   margin-right: 12px;
   height: 20px;
   width: 20px;
