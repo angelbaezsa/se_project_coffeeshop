@@ -105,7 +105,7 @@
   
 }
 
-.header__title-span {
+.span-accent {
   margin: 0;
   border: 0;
   font-family: Noto serif;
@@ -156,7 +156,7 @@
           justify-content: space-between;
 }
 
-.header__hours {
+.header__paragraph {
   margin: 0;
   font-family: Inter;
   font-style: normal;
@@ -166,7 +166,7 @@
   color: #6f6f6f;
 }
 
-.header__address {
+#header p:last-child {
   margin: 0;
   font-family: Inter;
   font-style: normal;

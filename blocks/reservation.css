@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   min-height: 700px;
   max-height: 960px;
-  height: 100vh;
   color: black;
   position: relative;
   display: -webkit-box;
@@ -37,7 +36,7 @@
   line-height: 52px;
 }
 
-.reservation__form {
+.form {
   margin: 80px auto 0;
   max-width: 385px;
   width: 100%;
@@ -59,7 +58,9 @@
   line-height: 20px;
 }
 
-.reservation__form-input {
+.form-input {
+  border: 1px;
+  border-radius: 4px;
   max-width: 385px;
   height: 60px;
   width: 100%;

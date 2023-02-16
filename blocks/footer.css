@@ -13,6 +13,7 @@
   background: -o-linear-gradient(top, #0a2850 0%, #071931 100%);
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
+  position: relative;
 }
 
 .footer__columns {

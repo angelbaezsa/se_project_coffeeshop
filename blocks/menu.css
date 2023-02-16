@@ -60,13 +60,13 @@
   row-gap: 100px;
 }
 
-.menu__card {
+.card {
   max-width: 600px;
   width: 100%;
   font-family: "Noto Serif", "Times New Roman", serif;
   padding: 0px;
 }
-.menu__card-title {
+.card-title {
   margin: 0;
   padding: 0 0 16px 0;
   font-weight: bold;
@@ -75,11 +75,11 @@
   font-family: "Inter", "Arial", sans-serif;
 }
 
-.menu__card-items {
+.card__list-items {
   margin: auto 0;
   padding-left: 0;
 }
-.menu__card-item {
+.card__list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +88,7 @@
   margin-top: 16px;
 }
 
-.divider {
+.card__list-divider {
   border-bottom: 1px solid #ffffff;
   -webkit-box-flex: 1;
       -ms-flex: auto;
