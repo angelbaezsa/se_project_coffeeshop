@@ -5,14 +5,11 @@
 * Browsers: last 4 version
 */
 
-#recipes {
+.recipes {
   background-color: #ffffff;
   background-image: url("../images/background_recipes.svg");
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 700px;
-  max-height: 800px;
-  height: 100vh;
   color: #000000;
   position: relative;
   display: -webkit-box;
@@ -52,6 +49,7 @@
 }
 
 .recipes__videos {
+  border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,6 +73,8 @@
 }
 
 .recipes__video-caption {
+  margin: 24px 0 0;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

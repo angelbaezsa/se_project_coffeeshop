@@ -11,8 +11,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 700px;
-  max-height: 960px;
   color: black;
   position: relative;
   display: -webkit-box;
@@ -49,7 +47,7 @@
           flex-direction: column;
 }
 
-#reservation label {
+.form__label {
   margin: 0 0 8px 0;
   font-family: Inter;
   font-style: normal;

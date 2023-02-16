@@ -5,14 +5,11 @@
 * Browsers: last 4 version
 */
 
-#menu {
+.menu {
   background-color: #0a2750;
   background-image: url("../images/background_menu.svg");
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 700px;
-  /* max-height: 800px; */
-  /* height: 100vh; */
   color: #ffffff;
   position: relative;
   display: -webkit-box;
