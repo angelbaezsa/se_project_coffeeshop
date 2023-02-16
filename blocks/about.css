@@ -16,7 +16,7 @@
   overflow: hidden;
   position: relative;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .about__title {
@@ -53,7 +53,7 @@
   line-height: 30px;
   max-width: 660px;
   margin-bottom: 173px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -65,33 +65,45 @@
 }
 
 #about p:last-of-type {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 @-webkit-keyframes pulsation {
-  0%  {opacity: 0;}
-  50%   {opacity: 0.6;}
-  100%  {opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes pulsation {
-  0%  {opacity: 0;}
-  50%   {opacity: 0.6;}
-  100%  {opacity: 0; 
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
-        transform: scale(1.2);}
+    transform: scale(1.2);
+  }
 }
 
 .about__circle_animation_blurred {
   -webkit-animation-name: pulsation;
-          animation-name: pulsation;
+  animation-name: pulsation;
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
   -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  animation-delay: 0.1s;
   -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }

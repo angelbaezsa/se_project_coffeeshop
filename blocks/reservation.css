@@ -18,11 +18,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   padding: 100px 0 120px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .reservation__title {
@@ -43,8 +43,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .form__label {
@@ -73,34 +73,34 @@
   padding: 0;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   margin-left: 20px;
   text-align: left;
-  text-indent:20px;
+  text-indent: 20px;
 }
 
-::-moz-placeholder{
+::-moz-placeholder {
   margin-left: 20px;
   text-align: left;
-  text-indent:20px;
+  text-indent: 20px;
 }
 
-:-ms-input-placeholder{
+:-ms-input-placeholder {
   margin-left: 20px;
   text-align: left;
-  text-indent:20px;
+  text-indent: 20px;
 }
 
-::-ms-input-placeholder{
+::-ms-input-placeholder {
   margin-left: 20px;
   text-align: left;
-  text-indent:20px;
+  text-indent: 20px;
 }
 
-::placeholder{
+::placeholder {
   margin-left: 20px;
   text-align: left;
-  text-indent:20px;
+  text-indent: 20px;
 }
 
 .form-button {
@@ -123,14 +123,14 @@
   -o-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-duration: 0.08s;
-       -o-transition-duration: 0.08s;
-          transition-duration: 0.08s;
+  -o-transition-duration: 0.08s;
+  transition-duration: 0.08s;
   -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   -webkit-transition-delay: 0.17s;
-       -o-transition-delay: 0.17s;
-          transition-delay: 0.17s;
+  -o-transition-delay: 0.17s;
+  transition-delay: 0.17s;
 }
 
 .form-button:hover {
@@ -142,11 +142,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-column-gap: 0;
-     -moz-column-gap: 0;
-          column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
 }
 .form-checkbox-terms-conditions {
   margin-right: 12px;

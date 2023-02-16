@@ -12,10 +12,10 @@
   position: relative;
   padding: 30px 80px 40px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-image: url("../images/background_header.svg");
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -29,7 +29,6 @@
   max-width: 729px;
   display: block;
   position: relative;
-  
 }
 
 .span-accent {
@@ -68,20 +67,20 @@
 .header__footer {
   position: absolute;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   bottom: 40px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   padding: 0 80px;
   left: 0;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .header__paragraph {
