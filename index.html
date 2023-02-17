@@ -36,7 +36,7 @@
           </li>
         </ul>
       </nav>
-      <h1 class="header__title"> <span class="span-accent">Specialty coffee</span> in the Practicum
+      <h1 class="header__title"> <span class="header__span-accent">Specialty coffee</span> in the Practicum
         Library</h1>
       <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy
         vibes to help you get creative.</p>
@@ -114,31 +114,31 @@
       </section>
       <section class="reservation" id="reservation">
         <h2 class="reservation__title">Book a table</h2>
-        <form action="submit" class="form">
-          <label class="form__label" for="form_name-guest">
+        <form action="submit" class="form reservation__form">
+          <label class="form__label" for="form__input_name-guest">
             name*
-            <input type="text" class="form-input" id="form_name-guest" name="form_name-guest" placeholder="Name surname"
+            <input type="text" class="form__input" id="form_name-guest" name="form__input_name-guest" placeholder="Name surname"
               required>
           </label>
-          <label class="form__label" for="form_numb-guest">
+          <label class="form__label" for="form__label_numb-guest">
             Number of guests*
-            <input type="number" max="8" min="1" class="form-input" name="form_numb-guest" id="form_numb-guest"
+            <input type="number" max="8" min="1" class="form__input" name="form__input_numb-guest" id="form_numb-guest"
               placeholder="1-8" required>
           </label>
 
-          <label class="form__label" for="form_date-time">
+          <label class="form__label" for="form__input_date-time">
             Date & time*
-            <input type="date" class="form-input" name="form_date-time" id="form_date-time" required>
+            <input type="date" class="form__input" name="form__input_date-time" id="form__input_date-time" required>
           </label>
 
-          <label class="form__label" for="form_email">Your email*
-            <input type="email" class="form-input" name="form_email" id="form_email" placeholder="email@email.com"
+          <label class="form__label" for="form__input_email">Your email*
+            <input type="email" class="form__input" name="form__input_email" id="form__input_email" placeholder="email@email.com"
               required>
           </label>
-          <button class="form-button">Book a table</button>
-          <div class="form-checkbox-wrapper">
-            <input type="checkbox" class="form-checkbox-terms-conditions" name="checkbox_terms-conditions" required>
-            <label class="form-terms-conditions">I agree with the terms of use </label>
+          <button class="form__button">Book a table</button>
+          <div class="form__checkbox-wrapper">
+            <input type="checkbox" class="form__checkbox" name="form__checkbox_terms-conditions" required>
+            <label class=" form__label">I agree with the terms of use </label>
           </div>
         </form>
       </section>

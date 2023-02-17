@@ -58,7 +58,7 @@
 .footer__column-heading {
   font-size: 16px;
   margin: 0 0 20px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
@@ -70,7 +70,7 @@
   text-decoration: none;
   width: 16px;
   height: 16px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   /* animation */
@@ -99,7 +99,7 @@
 }
 
 .footer__copyright {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 20px;

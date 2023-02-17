@@ -6,7 +6,7 @@
 */
 
 .about {
-  padding: 119px 80px 0 0;
+  padding: 100px 80px 0 80px;
   background-color: #0a2750;
   color: #fff;
   display: -webkit-box;
@@ -20,14 +20,14 @@
 }
 
 .about__title {
-  margin: 0;
+  margin: 0 auto auto 0;
   padding: 0;
   max-width: 251px;
   z-index: 2;
-  position: absolute;
+  /* position: absolute;
   left: 80px;
-  top: 100px;
-  font-family: Inter;
+  top: 100px; */
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -46,18 +46,19 @@
 }
 
 .about__content {
-  font-family: Noto serif;
+  font-family: Noto serif, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
+  margin-top: 19px;
   margin-bottom: 173px;
   z-index: 1;
 }
 
 .about__paragraph {
-  font-family: Noto serif;
+  font-family: Noto serif, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
