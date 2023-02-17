@@ -35,7 +35,7 @@
   display: block;
   margin: 0;
   border: 0;
-  font-family: Noto serif, sans-serif;
+  font-family: Noto serif, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -46,7 +46,7 @@
 .header__description {
   margin: 0;
   position: relative;
-  font-family: Noto serif, sans-serif;
+  font-family: Noto serif, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
