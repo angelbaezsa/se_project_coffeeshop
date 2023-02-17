@@ -24,9 +24,6 @@
   padding: 0;
   max-width: 251px;
   z-index: 2;
-  /* position: absolute;
-  left: 80px;
-  top: 100px; */
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -64,9 +61,10 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.about p:last-of-type {
+.about__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
