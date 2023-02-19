@@ -33,3 +33,9 @@
   font-size: 44px;
   line-height: 52px;
 }
+
+.reservation__form {
+  margin: 80px auto 0;
+  max-width: 385px;
+  width: 100%;
+}
