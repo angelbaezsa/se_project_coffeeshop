@@ -29,6 +29,7 @@
   max-width: 729px;
   display: block;
   position: relative;
+  z-index: 2;
 }
 
 .header__span-accent {
